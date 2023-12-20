@@ -9,7 +9,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world. From
-      Back-end To Design
+      Backend To Frontend
     </SectionText>
     <List>
       <ListItem>
@@ -19,8 +19,14 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js, Tailwind css
+            
+            <button id="Front">HTML</button>&emsp;
+            <button id="Front">CSS</button>&emsp;
+            <button id="Front">JavaScript</button>&emsp;
+            <button id="Front">TypeScript</button>&emsp;
+            <button id="Front">React</button>&emsp;
+            <button id="Front">Next Js 13</button>&emsp;
+            <button id="Front">Tailwind CSS</button>&emsp;
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +38,9 @@ const Technologies = () => (
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js, TypeScript, NextJs, Redux.js, Express.js, Supabase and SQL databases
+            <button id="Node">Node Js</button>
+            &emsp;<button id="Express">Express Js</button>
+            
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +49,11 @@ const Technologies = () => (
           <DiReact size="3rem"></DiReact>
         </picture>
         <ListContainer>
-          <ListTitle>Version Control</ListTitle>
+          <ListTitle>Database</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Git, managing branches and merging code seamlessly
+          <button id="Database">PostgreSQL</button>&emsp;
+          <button id="Database">MySQL</button>&emsp;
+          <button id="Database">Redis</button>&emsp;
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -53,10 +62,21 @@ const Technologies = () => (
           <DiReact size="3rem"></DiReact>
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Devops</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+          <button id="Docker"> Docker </button>&emsp;
+          <button id="GIT">GIT</button>&emsp;<button id="AWS">AWS Ec2</button>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiReact size="3rem"></DiReact>
+        </picture>
+        <ListContainer>
+          <ListTitle>Other</ListTitle>
+          <ListParagraph>
+          <button id="API"> Rest API</button>
           </ListParagraph>
         </ListContainer>
       </ListItem>
