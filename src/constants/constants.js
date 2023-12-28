@@ -7,7 +7,7 @@ export const projects = [
     tags: [
       "Javascript",
       "Express.js",
-      "Reducx",
+      "Redux",
       "React.js",
       "Node.js",
       "Tailwind CSS",
