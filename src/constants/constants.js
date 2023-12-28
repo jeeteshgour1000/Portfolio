@@ -19,7 +19,7 @@ export const projects = [
   {
     title: "MediaMingle",
     description:
-      "I developed a dynamic and real-time social media platform using Next.js and Supabase Realtime. This project showcases my ability to create modern web applications with real-time updates and data synchronization. It includes features like user authentication,real-time chat,profiles, post creation, commenting, liking, sitting and instant notifications, demonstrating my skills in building engaging and interactive web applications using cutting-edge technologies. Demo user: username:user12345 password:12345678",
+      "I developed a dynamic and real-time social media platform using Next.js and Supabase Realtime. This project showcases my ability to create modern web applications with real-time updates and data synchronization. It includes features like user authentication,real-time chat,profiles, post creation, commenting, liking, sitting and instant notifications, demonstrating my skills in building engaging and interactive web applications using cutting-edge technologies. ",
     image:[ "/images/mediaMingleMain.png"],
     tags: ["React.js", "NextJs 13", "Tailwind CSS", "PostgreSQL", "TypeScript"],
     source: "https://github.com/jeeteshgour1000/media",
